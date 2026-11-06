@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: 'Syne', sans-serif;
+  }
+
+  .font-mono-tech {
+    font-family: 'Space Grotesk', monospace;
+  }
+}
+
+/* Bright stone architectural pattern & card accents */
+.bg-stone-pattern {
+  background-image: radial-gradient(rgba(100, 116, 139, 0.08) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.granite-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+}
+
+.granite-card-hover {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.granite-card-hover:hover {
+  border-color: #d97706;
+  background: #ffffff;
+  box-shadow: 0 14px 30px -10px rgba(180, 83, 9, 0.12);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #b45309 0%, #d97706 50%, #f59e0b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+

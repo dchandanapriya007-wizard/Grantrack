@@ -1,0 +1,6 @@
+{
+  "name": "Granite Processing Unit",
+  "description": "Precision processing, superior finishing and quality granite products crafted from nature.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
